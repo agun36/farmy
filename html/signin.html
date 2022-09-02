@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/signin.css" />
+  <title>Project #28 - Form Input Validator</title>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="div1">
+      <div class="wrapper">
+
+        <nav class="navbar-left">
+          <ul class="parent-nav-items-left">
+            <li><a class="left-link" href="../index.html">Home</a></li>
+            <li><a class="left-link" href="">Contact</a></li>
+            <li><a class="left-link" href="">Service</a></li>
+            <li><a class="left-link" href="">email us</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="parent-nav-items-right">
+            <li><a class="login" href="#">Login</a></li>
+            <div class="cart">
+              <img src="./images/cart.svg" alt="">
+            </div>
+          </ul>
+          <div class="hamb">
+            <img class="hamburger" src="../images//hamburger.svg" alt="">
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="div2">
+
+      <form id="login">
+        <div class="form-group">
+          <label class="email" for="email">Email</label>
+          <input type="email" id="email" placeholder="email" class="input-field" />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" name="password" placeholder="Password" class="input-field" />
+          <small></small>
+        </div>
+        <button class="login-btn">Sign In</button>
+        <div style="display: none">
+          <p class="loading">Please wait....</p>
+        </div>
+        <a class="sign-up" href="">Sign up</a>
+      </form>
+    </div>
+    <footer class="footer-head"></footer>
+  </div>
+  <!-- JS File -->
+  <script src="../life-js/signin.js" type="module"></script>
+
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../css/signup.css" />
+  <title>Form Validator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="div1">
+      <div class="wrapper">
+
+        <nav class="navbar-left">
+          <ul class="parent-nav-items-left">
+            <li><a class="left-link" href="../index.html">Home</a></li>
+            <li><a class="left-link" href="">Contact</a></li>
+            <li><a class="left-link" href="">Service</a></li>
+            <li><a class="left-link" href="">email us</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="parent-nav-items-right">
+            <li><a class="login" href="#">Login</a></li>
+
+          </ul>
+          <div class="hamb">
+            <img class="hamburger" src="../images//hamburger.svg" alt="">
+          </div>
+        </nav>
+      </div>
+    </div>
+    <form class="form">
+      <h2>Register With Us</h2>
+      <div class="form-control">
+        <label for="fullname">fullName</label>
+        <input type="text" class="username" id="username" placeholder="Enter name" />
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="email" placeholder="Enter email" />
+        <small class="error">Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="Phone Number">phone number</label>
+        <input type="number" id="phone" class="phone" placeholder="Enter phone-number" />
+        <small class="error">Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="Address">Address</label>
+        <input type="text" id="address" class="address" placeholder="Enter address" />
+        <small class="error">Error message</small>
+      </div>
+      <div class="form-control gender1">
+        <select name="gender" id="select">
+          <option class="option" value="">Gender</option>
+          <option class="option" value="male">Male</option>
+          <option class="option" value="female">Female</option>
+        </select>
+        <span class="showValue"></span>
+        <small class="error">Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="password" placeholder="Enter password" />
+        <p></p>
+        <small class="error">Error message</small>
+      </div>
+      <div class="btn-par">
+        <button class="btn">Submit</button>
+    </form>
+  </div>
+  <div class="show"></div>
+  <script src="../life-js/signup.js" type="module"></script>
+  <script src="../life-js/app.js"></script>
+</body>
+
+</html>
